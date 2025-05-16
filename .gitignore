@@ -1,0 +1,23 @@
+# Dossiers internes Python
+__pycache__/
+.pytest_cache/
+
+# Dossier de données brutes
+data/
+
+# Dossier de logs et modèles MLFlow
+mlruns/
+
+# Modèle BERT exporté
+bert_model/
+
+# Fichiers de notebooks (optionnel)
+*.ipynb
+*.ipynb_checkpoints/
+
+
+# Fichiers temporaires et système
+.DS_Store
+*.log
+*.tmp
+*.bak
